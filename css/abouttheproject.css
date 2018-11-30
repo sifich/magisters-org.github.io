@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden !important;
+}
+
+.headerTopMenu {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	height: 58px;
+	background: #4f4f4f;
+	font-family: 'Oswald', sans-serif;
+}
+
+.headerTopMenu ul,
+.headerTopMenu ol {
+	list-style: none;
+}
+
+.headerTopMenu > ul {
+	display: flex;
+	justify-content:center;
+}
+
+.headerTopMenu > ul li a {
+	display: block;
+	padding: 15px 95px 15px 40px;
+	font-size: 19px;
+	color: #fcfcfc;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.headerTopMenu li a:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    color: #4f4f4f;
+    box-shadow: 1px 5px 10px -5px #fcfcfc;
+    transition: all 0.5s ease;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.headerTopMenu li ul {
+      position: absolute;
+      min-width: 202px;
+      display: none;
+}
+
+.headerTopMenu li > ul li {
+	border: 1px solid #606060;
+	
+} 
+
+.headerTopMenu li > ul li a {
+	padding: 15px;
+	text-transform: none;
+	background: #8c8c8c;
+}
+
+.headerTopMenu li:hover > ul {
+	display: block;
+}
+
+.information {
+	position: absolute;
+	top: 15px;
+	margin-left: 15px;
+	color: #fcfcfc;
+}
+
+header {
+	max-width: 100%;
+	height: 105px;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;	
+	
+}
+
+.webName {
+    position: relative;
+    color: white;
+    font-size: 50px;
+    top: 20px;
+    left: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.help {
+	position: relative;
+	top: 9px;
+	margin-left: 27px;
+	color: white;
+	font-size: 13px;
+	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Content*/
+
+section {
+	max-width: 100%;
+	height: 600px;
+}
+
+.wrapper {
+	max-width: 100%;
+}
+
+.Content {
+	font-size: 50px;
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
